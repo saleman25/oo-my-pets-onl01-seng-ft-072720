@@ -44,11 +44,11 @@ def buy_dog(name)
 end 
 
 def walk_dogs
-  self.dogs.each  {|dogs| dog.mood = "happy"}
+  self.dogs.each  { |dogs| dog.mood = "happy" }
 end 
 
 def feed_cats
-  self.cats.each  {|cats| cat.mood = "happy" }
+  self.cats.each  { |cats| cat.mood = "happy" }
 end 
 
 def sell_pets

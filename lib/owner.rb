@@ -52,7 +52,11 @@ def feed_cats
 end 
 
 def sell_pets
-  
+  self.dogs.each { |dog| dog.mood = "nervous" }
+  self.dogs.each { |dog| dog.owner = "none" }
+  self.cats.each { |cat| cat.mood = "nervous" }
+  self.cats.each { |cat| cat.owner = "none" }
+
 end 
 
 def list_pets

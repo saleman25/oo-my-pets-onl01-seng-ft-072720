@@ -36,11 +36,11 @@ def dogs
 end 
 
 def buy_cat 
-  Cat.new(name, owner)
+  Cat.new(name, self)
 end 
 
 def buy_dog
-  Dog.new(name, owner)
+  Dog.new(name, self)
 end 
 
 def walk_dogs
